@@ -31,9 +31,9 @@ def login(db):
 
 while True: 
     print("\n")
-    print("1 - Registrar usuario: ")
-    print("2 - Mostrar usuarios: ")
-    print("3 - Login: ")
+    print("1 - Registrar usuario ")
+    print("2 - Mostrar usuarios ")
+    print("3 - Login ")
     print("4 - Salir")
 
     seleccionar_opcion = input("seleccione una opcion: ")

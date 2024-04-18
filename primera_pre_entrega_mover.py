@@ -48,5 +48,5 @@ while True:
         print(" Chauuuu! ")
         break
     else:
-        print("No exuste esa opcion!, Intenta de nuevo")
+        print("No existe esa opcion!, Intenta de nuevo")
     

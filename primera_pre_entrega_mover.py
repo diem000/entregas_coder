@@ -2,13 +2,12 @@
 def registrar_usuario(db):
     nombre_usuario = input("Ingrese nombre de usuario: ")
     contraseña = input("Ingrese su contraseña: ")
-    db [nombre_usuario] = contraseña
+    db[nombre_usuario] = contraseña
     print("Usuario cargado correctamnte!")
     
-#aca vamos a guardar los usuarios registrados para despues usarlo como valor.
+#en este diccionario vacio vamos a  guardar los usuarios registrados para despues usarlo como valor.
+
 usuario = {}
-
-
 
 #aca vamos a hacer la funcion para mostrar los usuarios
 
@@ -23,7 +22,7 @@ def login(db):
     nombre_usuario = input("Ingrese nombre de usuario: ")
     contraseña = input("Ingrese su contraseña: ")
     if nombre_usuario in db and db[nombre_usuario] == contraseña:
-        print("Ingreso exitoso!")
+        print("Ingresó con exito")
     else:
         print("Usuario o contrasela no coinciden, vuelva a intentar!")
         
@@ -39,11 +38,11 @@ while True:
     seleccionar_opcion = input("seleccione una opcion: ")
 
     if seleccionar_opcion == "1":
-        print(registrar_usuario(usuario))
+        registrar_usuario(usuario)
     elif seleccionar_opcion =="2":
-        print(mostrar_usuarios(usuario))
+        mostrar_usuarios(usuario)
     elif seleccionar_opcion == "3":
-        print(login(usuario))
+        login(usuario)
     elif seleccionar_opcion == "4":
         print(" Chauuuu! ")
         break

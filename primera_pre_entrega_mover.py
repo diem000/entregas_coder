@@ -5,18 +5,18 @@ def registrar_usuario(db):
     db[nombre_usuario] = contraseña
     print("Usuario cargado correctamnte!")
     
-#en este diccionario vacio vamos a  guardar los usuarios registrados para despues usarlo como valor.
+#en este diccionario vacio vamos a  guardar los usuarios registrados para despues usarlo como valor o argumento en las funciones.
 
 usuario = {}
 
-#aca vamos a hacer la funcion para mostrar los usuarios
+#aca vamos a hacer la funcion para mostrar los usuarios. (usamos la funcion ".item" para desempaquetar el conjunto de clave-valor y mostrar las variables separadas)
 
 def mostrar_usuarios(db):
     print("estos son los usuarios registrados: ")
     for usuario, contraseña in db.items():
         print(f"usuario:  {usuario}, contraseña:  {contraseña}")
 
-#aca vamos a hacer el login
+#aca vamos a hacer el login.
 
 def login(db):
     nombre_usuario = input("Ingrese nombre de usuario: ")

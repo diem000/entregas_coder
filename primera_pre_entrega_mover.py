@@ -1,4 +1,4 @@
-#esta va a ser la funcion para registrar un usuario
+#esta va a ser la funcion para registrar un usuario, utilizamos ".strip() para quitar los espacios de inicio y final"
 def registrar_usuario(db):
     nombre_usuario = input("Ingrese nombre de usuario: ").strip()
     contraseña = input("Ingrese su contraseña: ").strip()

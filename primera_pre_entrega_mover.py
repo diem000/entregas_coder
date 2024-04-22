@@ -1,7 +1,7 @@
 #esta va a ser la funcion para registrar un usuario
 def registrar_usuario(db):
-    nombre_usuario = input("Ingrese nombre de usuario: ")
-    contraseña = input("Ingrese su contraseña: ")
+    nombre_usuario = input("Ingrese nombre de usuario: ").strip()
+    contraseña = input("Ingrese su contraseña: ").strip()
     if nombre_usuario == "" or contraseña == "":
         print("El usuario o contraseña no puede estar vacio")
     else:

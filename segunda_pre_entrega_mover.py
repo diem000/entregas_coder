@@ -45,20 +45,19 @@ while True:
         print("**Esa opcion no es correcta**")    
 
             
+#creamos un menu con un while true para invocar las funciones y los atrbutos.
 
 
 
 
-# creamos la clase cliente, con 4 atributos uno de ellos es una lista vacia para guardar los productos y 3 funciones para agregar al carrito, borrar del carrito y mostrar el carrito.
 
-#se agrego la funcion __str__ para devolver el nombre cada vez que se lo solicite con client_select.
-#para crear los clientes creamos una lista client_list, en esta lista guardaremos los clientes, para mas adelante iterarla y seleccionar con que cliente queremos comprar.
 
-#creamos una funcion para seleccionar un cliente de la lista:
 
-#Un for para iterar la lista y le decimos q guarde cada cliente en una variable client_position. enumeramos la lista de clientes, le indicamos con "start=1" que comience enumerando desde el 1 en [0] , 2 [1]... y que imprima esa posicion con el nombre del cliente en esa posicion.
 
-#con un int((input()) hacemos que el usuario seleccione el numero de un cliente y lo guardamos en client_num_select.
-#creamos la variable client_select y le decimos que busque la posicion ingresada dentro de la lista de clientes (client_list) y le restamos 1 para que seleccione el cliente en la posicion [0].
 
-#por ultimo creamos un menu con un while true para invocar las funciones y los atrbutos.
+
+
+
+
+
+

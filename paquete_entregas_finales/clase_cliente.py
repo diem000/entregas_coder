@@ -28,3 +28,7 @@ class Client():
 
     def __str__(self):
         return f"{self.name}"
+    
+# creamos la clase cliente, con 4 atributos uno de ellos es una lista vacia para guardar los productos y 3 funciones para agregar al carrito, borrar del carrito y mostrar el carrito.
+#se agrego la funcion __str__ para devolver el nombre cada vez que se lo solicite con client_select.
+#para crear los clientes creamos una lista client_list, en esta lista guardaremos los clientes instanciados, para mas adelante iterarla y seleccionar con que cliente queremos comprar.

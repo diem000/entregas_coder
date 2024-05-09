@@ -60,4 +60,4 @@ while True:
 #con un int((input()) hacemos que el usuario seleccione el numero de un cliente y lo guardamos en client_num_select.
 #creamos la variable client_select y le decimos que busque la posicion ingresada dentro de la lista de clientes (client_list) y le restamos 1 para que seleccione el cliente en la posicion [0].
 
-#por ultimo creamos un menu con un while true para invocar las funciones y los atrbutos.
+#por ultimo creamos un menu con un while true para invocar las funciones y los atrbutos....

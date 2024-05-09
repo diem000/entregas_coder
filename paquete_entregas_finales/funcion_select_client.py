@@ -1,3 +1,4 @@
+
 #enumeramos los clientes  
 def select_client(Client_list):    
     print("**Clientes disponibles**")
